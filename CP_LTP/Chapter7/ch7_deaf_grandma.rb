@@ -3,9 +3,9 @@ puts "Atticus, please say something to your Grandma."
 while true
   reply = gets.chomp
 
-  if reply == reply
+  if reply != reply.upcase
     puts "HUH?  SPEAK UP SONNY!"
-  else reply != reply.upcase
+  else 
     puts "NO, NOT SINCE 1938!"
   end
 
