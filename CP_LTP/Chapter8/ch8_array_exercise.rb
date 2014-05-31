@@ -1,13 +1,14 @@
-puts "Hi Rectangle People. I'd like you to give me some words. Whatever comes to mind. Start...now!"
+puts "Hi, Rectangle People. Please give me some words. Any word will do. Start...NOW!"
 words = Array.new
-	
+
 while true
-	words = gets.chomp
-	if words == ""
-			break
-	end
-	words.push[words]
+  words = gets.chomp
+  if words == ""
+    break
+  end
+  words.push(words)
 end
 
-puts word.sort
+puts words.sort
+
 
