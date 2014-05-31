@@ -2,11 +2,11 @@ puts "Hi, Rectangle People. Please give me some words. Any word will do. Start..
 words = Array.new
 
 while true
-  words = gets.chomp
-  if words == ""
+  word = gets.chomp
+  if word == ""
     break
   end
-  words.push(words)
+  words.push(word)
 end
 
 puts words.sort
