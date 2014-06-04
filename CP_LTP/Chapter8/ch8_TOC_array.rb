@@ -9,12 +9,12 @@ puts title.center(line_width)
 puts "" #break
 
 chapters.each do |chap, page|
-	ch_name = chap
-	page_num = page
+  ch_name = chap
+  page_num = page
 	
-	beginning = "#{ch_name}"
-	ending = "page #{page_num}"
+  beginning = "#{ch_name}"
+  ending = "page #{page_num}"
 
-	puts beginning.ljust(line_width) + ending.rjust(line_width/2)
+  puts beginning.ljust(line_width) + ending.rjust(line_width/2)
 end
 
